@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
     private TextView text_name;
     private Button button;
 
@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.Theme_AppCompat_DayNight_DarkActionBar);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_third);
         text_name = findViewById(R.id.text_name);
         button = findViewById(R.id.button);
-        text_name.setText(text_name.getText().toString()+1);
+        text_name.setText(text_name.getText().toString()+3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),SecondActivity.class));
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
             }
         });
     }
