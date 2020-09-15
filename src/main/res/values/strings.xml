@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="string_name">Maksat Inkar 180103097</string>
+    <string name="string_id">180103097</string>
+    <string name="buttonpanel">Show</string>
+    <string name="buttonpanel2">Select</string>
+    <string name="textview">Textview</string>
+    <string-array name="repeatValues">
+        <item>Blue</item>
+        <item>White</item>
+        <item>Red</item>
+    </string-array>
+</resources>
