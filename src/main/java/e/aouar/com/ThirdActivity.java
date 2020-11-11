@@ -20,7 +20,5 @@ public class ThirdActivity extends BaseActivity {
         });
     }
     @Override
-    protected int getLayoutResourceId() {
-        return R.layout.activity_third;
-    }
+    protected int getLayoutResourceId() { return R.layout.activity_third; }
 }
